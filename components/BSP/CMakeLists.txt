@@ -1,4 +1,5 @@
 set(src_dirs
+            .
             IIC
             LCD
             Button
@@ -7,6 +8,7 @@ set(src_dirs
             XL9555)
 
 set(include_dirs
+            .
             IIC
             LCD
             Button

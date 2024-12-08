@@ -30,7 +30,7 @@
 #define BOOT_GPIO_PIN   GPIO_NUM_0
 
 /*IO操作*/
-#define BOOT            gpio_get_level(BOOT_GPIO_PIN)
+#define BOOT            gpio_get_level(BOOT_GPIO_PIN)  // 获取该IO口的高低电平
 
 /* 按键按下定义 */
 #define BOOT_PRES       1       /* BOOT按键按下 */

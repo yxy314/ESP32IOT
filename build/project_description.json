@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "08_WiFi_MQTT_ALIYUN",
-    "project_version":    "1",
+    "project_version":    "5f0cc3d-dirty",
     "project_path":       "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.1.2",
     "build_dir":          "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/build",
@@ -40,8 +40,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/build/esp-idf/BSP/libBSP.a",
-            "sources": [ "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/IIC/iic.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/LCD/lcd.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/Button/key.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/LED/led.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/SPI/spi.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/XL9555/xl9555.c" ],
-            "include_dirs": [ "IIC", "LCD", "Button", "LED", "SPI", "XL9555" ]
+            "sources": [ "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/platform.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/IIC/iic.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/LCD/lcd.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/Button/key.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/LED/led.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/SPI/spi.c", "C:/Users/vhdkdk/Desktop/08_WiFi_MQTT_ALIYUN/components/BSP/XL9555/xl9555.c" ],
+            "include_dirs": [ ".", "IIC", "LCD", "Button", "LED", "SPI", "XL9555" ]
         },
         "app_trace": {
             "alias": "idf::app_trace",

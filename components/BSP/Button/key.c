@@ -52,7 +52,7 @@ uint8_t key_scan(uint8_t mode)
     uint8_t keyval = 0;
     static uint8_t key_boot = 1;    /* 按键松开标志 */
 
-    if(mode)
+    if(mode) /* 如果是连续按模式 */
     {
         key_boot = 1;
     }
@@ -67,7 +67,7 @@ uint8_t key_scan(uint8_t mode)
             keyval = BOOT_PRES;
         }
     }
-    else if (BOOT == 1)
+    else if (BOOT == 1) /* 按键松开 */
     {
         key_boot = 1;
     }
